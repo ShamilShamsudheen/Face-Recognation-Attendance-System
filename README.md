@@ -20,11 +20,21 @@ Before running the application, make sure you have the following libraries insta
 - `os`
 - `pandas`
 
+
+install virtulenv
+```sudo apt install python3-virtualenv```
+
+
+for create env 
+```virtualenv env```
+
 You can install these dependencies using the following command:
 
 
-```pip install opencv-python-headless pillow face-recognition pandas```
+```pip install -r requirements.txt```
 
+run env activating 
+``source env/bin/activate``
 
 Usage
 
